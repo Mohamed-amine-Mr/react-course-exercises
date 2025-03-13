@@ -1,0 +1,86 @@
+/* General styling for the app */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container for the Counter component */
+div {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Styling for the range input */
+input[type="range"] {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+/* Styling for the number input */
+input[type="number"] {
+  width: 60px;
+  padding: 0.5rem;
+  margin: 0 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Styling for buttons */
+button {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for the date display */
+p {
+  font-size: 1.2rem;
+  margin: 1.5rem 0;
+}
+
+span {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 480px) {
+  div {
+    padding: 1rem;
+  }
+
+  input[type="number"] {
+    width: 50px;
+  }
+
+  button {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    margin: 0.3rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
