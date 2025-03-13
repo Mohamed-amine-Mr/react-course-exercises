@@ -1,12 +1,8 @@
-# React + Vite
+Add Counter component with step and date calculation functionality
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Created a new `Counter` component to practice React state management.
+- Implemented a counter that increments or decrements by a dynamic step value.
+- Added a date calculation feature that updates based on the counter value.
+- Included a reset button to reset the counter and step to default values.
+- Focused on React concepts such as `useState`, event handling, and dynamic rendering.
+- Set up a dedicated folder and repository for this React-focused project."
